@@ -2,12 +2,15 @@ server:
   port: 8081
 
 spring:
+  application:
+    name: entradas-service
+  config:
+    import: "optional:configserver:http://localhost:8888/"
   datasource:
     url: jdbc:postgresql://localhost:5432/entradas_db
     username: postgres
     password: pass
     driver-class-name: org.postgresql.Driver
-
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
     hibernate:
