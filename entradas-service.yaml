@@ -3,7 +3,7 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/entradas_db
+    url: jdbc:postgresql://entradas-db-service:5432/entradas_db
     username: postgres
     password: pass
     driver-class-name: org.postgresql.Driver
