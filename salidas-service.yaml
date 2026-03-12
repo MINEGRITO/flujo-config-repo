@@ -3,7 +3,7 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/salidas_db
+    url: jdbc:postgresql://salidas-db-service:5432/salidas_db
     username: postgres
     password: pass
     driver-class-name: org.postgresql.Driver
