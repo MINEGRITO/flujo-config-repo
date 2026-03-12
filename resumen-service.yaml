@@ -13,3 +13,8 @@ spring:
       ddl-auto: update
     show-sql: true
 
+entradas-service:
+  url: http://entradas-service:8081
+
+salidas-service:
+  url: http://salidas-service:8082
